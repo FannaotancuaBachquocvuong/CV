@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CV – Cao Nguyệt Thu</title>
+<style>
+:root{--bg:#e9ecf1;--paper:#fff;--text:#333;--muted:#555;--accent:#b0713a;--blue:#8a94a8;--pink:#e9b9bd;--line:#b0713a;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c1e24}}
+:root[data-theme="dark"]{--bg:#1c1e24}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{background:var(--bg);font-family:Inter,"Segoe UI",Roboto,Arial,sans-serif;color:var(--text);font-size:12px;line-height:1.55;padding:20px 8px}
+.cv{position:relative;width:100%;max-width:794px;margin:0 auto;background:var(--paper);overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.2)}
+
+/* Header */
+.header{position:relative;height:230px;overflow:hidden}
+.blob{position:absolute;top:-120px;left:-120px;width:420px;height:420px;background:var(--blue);border-radius:50%;
+background-image:radial-gradient(rgba(255,255,255,.25) 1px,transparent 1px);background-size:10px 10px}
+.blob2{position:absolute;top:70px;left:30px;width:200px;height:200px;background:var(--pink);border-radius:50%;opacity:.85}
+.avatar{position:absolute;top:30px;left:46px;width:162px;height:162px;border-radius:50%;border:5px solid #fff;
+background:linear-gradient(160deg,#f6d9c9,#e7a98c);display:flex;align-items:center;justify-content:center;font-size:64px;color:#fff;overflow:hidden}
+.avatar img{width:100%;height:100%;object-fit:cover}
+.intro{position:absolute;left:236px;right:28px;top:34px}
+.intro h1{font-size:30px;font-weight:700;color:#2b2b2b;line-height:1.2}
+.intro h2{font-size:17px;font-weight:600;color:var(--accent);margin:10px 0 14px}
+.intro p{font-size:11.5px;color:var(--muted);line-height:1.6}
+
+/* Body */
+.body{display:grid;grid-template-columns:230px 1fr;gap:0 24px;padding:0 28px 32px}
+h3{font-size:18px;font-weight:700;color:#2b2b2b;padding-bottom:8px;margin-bottom:14px;position:relative}
+h3::after{content:"";position:absolute;left:0;bottom:0;width:130px;height:2px;background:var(--line)}
+section{margin-bottom:26px}
+section:last-child{margin-bottom:0}
+
+.contact li{list-style:none;display:flex;align-items:center;gap:10px;margin-bottom:12px;word-break:break-all}
+.ico{flex:0 0 28px;height:28px;border-radius:50%;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;font-size:13px}
+.orange{color:var(--accent);font-weight:700}
+.edu p{margin-bottom:6px}
+.skills li,.hobby li{list-style:none;margin-bottom:11px}
+.award .year{font-weight:700;color:var(--accent);margin-bottom:2px}
+.award p{margin-bottom:12px}
+
+.job-title{font-weight:700;color:var(--accent);font-size:12.5px}
+.role{font-weight:700;margin:4px 0 6px;color:#2b2b2b}
+.entry{margin-bottom:16px}
+.entry:last-child{margin-bottom:0}
+.right ul{padding-left:16px;margin-bottom:6px}
+.right li{margin-bottom:4px;color:var(--muted)}
+.right p.text{color:var(--muted)}
+.sub{font-weight:700;margin:14px 0 4px;color:#2b2b2b}
+
+@media (max-width:640px){
+ .header{height:auto;padding:24px 20px}
+ .blob,.blob2{opacity:.6}
+ .avatar,.intro{position:relative;top:auto;left:auto;right:auto}
+ .avatar{margin:0 auto 16px}
+ .body{grid-template-columns:1fr;padding:0 20px 24px}
+ section:last-child{margin-bottom:26px}
+}
+@media print{body{background:#fff;padding:0}.cv{box-shadow:none}}
+</style>
+</head>
+<body>
+<div class="cv">
+
+  <header class="header">
+    <div class="blob"></div>
+    <div class="blob2"></div>
+    <div class="avatar">
+      <img src="ảnh.jpg" alt = "Ảnh đại diện">
+    </div>
+    <div class="intro">
+      <h1>Cao Nguyệt Thu</h1>
+      <h2>Sinh viên Đại học Sư phạm TP.HCM</h2>
+      <p>Sinh viên ngành Công nghệ thông tin, Trường Đại học Sư phạm TP.HCM, có nền tảng học lực tốt từ bậc phổ thông (giải khuyến khích học sinh giỏi môn Sinh cấp tỉnh). Có kinh nghiệm làm trợ giảng, tham gia nhiều hoạt động Đoàn – Hội, câu lạc bộ; thành thạo làm việc nhóm, xử lý tình huống và sử dụng các công cụ thiết kế, trình chiếu. Mong muốn tìm kiếm cơ hội thực tập để áp dụng kiến thức và phát triển bản thân.</p>
+    </div>
+  </header>
+
+  <main class="body">
+    <!-- CỘT TRÁI -->
+    <aside class="left">
+      <section>
+        <h3>Thông tin cá nhân</h3>
+        <ul class="contact">
+          <li><span class="ico">✆</span>0398191237</li>
+          <li><span class="ico">✉</span>caothu.08.03.2008@gmail.com</li>
+          <li><span class="ico">f</span>facebook.com/cao.nguyet.thu</li>
+          <li><span class="ico">⌖</span>Vĩnh Long</li>
+        </ul>
+      </section>
+
+      <section class="edu">
+        <h3>Học vấn</h3>
+        <p class="orange">Đại học Sư phạm TP.HCM | Đang theo học</p>
+        <p><b>Chuyên ngành:</b> Công nghệ thông tin</p>
+      </section>
+
+      <section>
+        <h3>Kỹ năng</h3>
+        <ul class="skills">
+          <li>Thành thạo các công cụ Canva, PowerPoint</li>
+          <li>Cắt ghép, chỉnh sửa video cơ bản</li>
+          <li>Thành thạo kỹ năng xử lý tình huống</li>
+          <li>Thành thạo kỹ năng làm việc nhóm</li>
+          <li>Thành thạo kỹ năng quản lý lớp</li>
+        </ul>
+      </section>
+
+      <section class="award">
+        <h3>Giải thưởng</h3>
+        <div class="year">Lớp 11</div>
+        <p>Giải khuyến khích học sinh giỏi môn Sinh học cấp tỉnh</p>
+        <div class="year">Lớp 9</div>
+        <p>Giải khuyến khích học sinh giỏi môn Sinh học cấp tỉnh</p>
+      </section>
+
+      <section>
+        <h3>Sở thích</h3>
+        <ul class="hobby">
+          <li>Chơi đàn guitar</li>
+          <li>Tìm hiểu công nghệ và thiết kế</li>
+          <li>Tham gia hoạt động tình nguyện, sinh hoạt tập thể</li>
+        </ul>
+      </section>
+    </aside>
+
+    <!-- CỘT PHẢI -->
+    <div class="right">
+      <section>
+        <h3>Mục tiêu nghề nghiệp</h3>
+        <p class="text">Trở thành người làm việc trong lĩnh vực công nghệ – giáo dục, vận dụng kiến thức Công nghệ thông tin cùng kỹ năng sư phạm, giao tiếp và tổ chức để tạo ra các sản phẩm, bài giảng và hoạt động hữu ích cho cộng đồng. Mong muốn được học hỏi trong môi trường chuyên nghiệp và không ngừng hoàn thiện bản thân.</p>
+      </section>
+
+      <section>
+        <h3>Kinh nghiệm làm việc</h3>
+        <div class="entry">
+          <div class="job-title">Dạy kèm</div>
+          <div class="role">Trợ giảng</div>
+          <ul>
+            <li>Hỗ trợ ghi danh, điểm danh và theo dõi tình hình học tập của học sinh trong lớp.</li>
+            <li>Hỗ trợ giáo viên chuẩn bị bài giảng, giáo án và tài liệu học tập.</li>
+            <li>Giải đáp thắc mắc, kèm cặp học sinh trong giờ học và duy trì trật tự, nề nếp lớp học.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h3>Hoạt động</h3>
+        <div class="entry">
+          <div class="job-title">Chi đoàn lớp</div>
+          <div class="role">Bí thư chi đoàn</div>
+          <ul>
+            <li>Lên kế hoạch, điều phối các hoạt động Đoàn – Hội và phong trào của lớp.</li>
+            <li>Kết nối giữa giáo viên chủ nhiệm, Đoàn trường và các bạn trong lớp.</li>
+          </ul>
+        </div>
+        <div class="entry">
+          <div class="job-title">CLB Tin học</div>
+          <div class="role">Thành viên</div>
+          <ul>
+            <li>Tham gia sinh hoạt chuyên môn, trao đổi kiến thức và kỹ năng về công nghệ thông tin.</li>
+            <li>Phối hợp với các thành viên khác tổ chức hoạt động, cuộc thi của câu lạc bộ.</li>
+          </ul>
+        </div>
+        <div class="entry">
+          <div class="job-title">CLB Guitar STU</div>
+          <div class="role">Thành viên ngoài trường</div>
+          <ul>
+            <li>Tham gia sinh hoạt, luyện tập và giao lưu âm nhạc cùng các thành viên câu lạc bộ.</li>
+            <li>Tham gia các buổi biểu diễn, góp phần xây dựng không khí văn nghệ sôi nổi.</li>
+          </ul>
+        </div>
+        <div class="entry">
+          <div class="job-title">Lớp</div>
+          <div class="role">Thành viên Ban đối ngoại</div>
+          <ul>
+            <li>Tìm kiếm, liên hệ và kêu gọi các thành viên của lớp tham gia hoạt động của trường.</li>
+            <li>Phối hợp với các ban khác để tổ chức sự kiện, tăng cường sự gắn kết và hình ảnh tích cực của lớp.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+</div>
+</body>
+</html>
